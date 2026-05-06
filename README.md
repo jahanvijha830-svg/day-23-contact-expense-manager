@@ -1,38 +1,37 @@
 # 📒 Contact & Expense Manager
 
-A simple Python-based CLI project to manage contacts and track expenses with data persistence using JSON.
+A Python CLI-based application to manage contacts and track expenses with persistent storage using JSON.
 
 ---
 
 ## 🚀 Features
 
 ### 📞 Contact Manager
-- Add new contacts
-- Search contacts (partial match supported)
-- Update contact details
-- Delete contacts with confirmation
+- Add, update, delete contacts
+- Search contacts (supports partial search)
+- Prevent duplicate entries
 - View all contacts
 
 ### 💰 Expense Manager
 - Add expenses by category
 - View all expenses
-- Expense summary with:
+- Summary with:
   - Total spending
   - Highest expense
   - Category-wise percentage
   - High spending alerts (⚠)
-  - Top 2 expenses
+  - Top 2 expense categories
 
 ---
 
-## 💾 Data Storage
-- Data saved in `data.json`
-- Automatic backup in `data_backup.json`
-- Recovery system if file gets corrupted
+## 💾 Data Handling
+- Stored in `data.json`
+- Automatic backup (`data_backup.json`)
+- Recovery if main file gets corrupted
 
 ---
 
-## 🛠️ Tech Used
+## 🛠️ Tech Stack
 - Python
 - JSON
 - File Handling
@@ -43,3 +42,16 @@ A simple Python-based CLI project to manage contacts and track expenses with dat
 
 ```bash
 python main.py
+```
+
+---
+
+## 📌 Future Improvements
+- GUI version (Tkinter)
+- Authentication system
+- Data visualization (charts)
+
+---
+
+## 👩‍💻 Author
+Jahanvi Jha
